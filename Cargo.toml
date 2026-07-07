@@ -15,7 +15,7 @@ edition = "2018"
 include-flate = "0.3.0"
 once_cell = "1.19"
 regex = "1.10"
-roead = { version = "0.25.3", default-features = false, features = [
+roead = { version = "1", default-features = false, features = [
     "yaz0",
     "binrw",
 ] }
