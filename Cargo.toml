@@ -15,7 +15,7 @@ edition = "2018"
 include-flate = "0.3.0"
 once_cell = "1.19"
 regex = "1.10"
-roead = { version = "1", default-features = false, features = [
+roead = { git = "https://github.com/NiceneNerd/roead.git", default-features = false, features = [
     "yaz0",
     "binrw",
 ] }
